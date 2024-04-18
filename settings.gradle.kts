@@ -14,5 +14,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "MireaProject"
-include(":app")
+include(":practice_3")
  
