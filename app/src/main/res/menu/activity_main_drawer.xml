@@ -26,5 +26,27 @@
             android:id="@+id/dataFragment"
             android:icon="@drawable/ic_menu_data"
             android:title="Data" />
+
+        <item
+            android:id="@+id/workerFragment"
+            android:icon="@drawable/ic_menu_worker"
+            android:title="Worker" />
+
+        <item
+            android:id="@+id/recordFragment"
+            android:icon="@drawable/ic_menu_recorder"
+            android:title="Recorder" />
+
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+
+        <item
+            android:id="@+id/detectorFragment"
+            android:icon="@drawable/ic_menu_sensor"
+            android:title="Sensor" />
+
+
     </group>
 </menu>

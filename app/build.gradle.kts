@@ -6,6 +6,10 @@ android {
     namespace = "ru.mirea.egerasimovich.mireaproject"
     compileSdk = 34
 
+    buildFeatures	{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "ru.mirea.egerasimovich.mireaproject"
         minSdk = 26
@@ -37,6 +41,7 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
+    implementation("androidx.work:work-runtime:2.8.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
     implementation("androidx.navigation:navigation-fragment:2.7.7")
     implementation("androidx.navigation:navigation-ui:2.7.7")

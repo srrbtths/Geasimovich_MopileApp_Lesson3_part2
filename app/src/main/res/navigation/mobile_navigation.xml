@@ -32,4 +32,28 @@
         android:name="ru.mirea.egerasimovich.mireaproject.WebViewFragment"
         android:label="fragment_web_view"
         tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+        android:id="@+id/workerFragment"
+        android:name="ru.mirea.egerasimovich.mireaproject.WorkerFragment"
+        android:label="fragment_nav_work"
+        tools:layout="@layout/fragment_worker" />
+
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="ru.mirea.egerasimovich.mireaproject.RecordFragment"
+        android:label="fragment_recorder"
+        tools:layout="@layout/fragment_record" />
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="ru.mirea.egerasimovich.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/detectorFragment"
+        android:name="ru.mirea.egerasimovich.mireaproject.DetectorFragment"
+        android:label="fragment_detector"
+        tools:layout="@layout/fragment_detector" />
 </navigation>
