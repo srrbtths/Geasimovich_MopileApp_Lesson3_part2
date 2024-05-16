@@ -22,11 +22,13 @@
         android:name="ru.mirea.egerasimovich.mireaproject.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
     <fragment
         android:id="@+id/dataFragment"
         android:name="ru.mirea.egerasimovich.mireaproject.DataFragment"
         android:label="fragment_data"
         tools:layout="@layout/fragment_data" />
+
     <fragment
         android:id="@+id/webViewFragment"
         android:name="ru.mirea.egerasimovich.mireaproject.WebViewFragment"
@@ -56,4 +58,16 @@
         android:name="ru.mirea.egerasimovich.mireaproject.DetectorFragment"
         android:label="fragment_detector"
         tools:layout="@layout/fragment_detector" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.mirea.egerasimovich.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/workwithfilesFragment"
+        android:name="ru.mirea.egerasimovich.mireaproject.WorkWithFilesFragment"
+        android:label="fragment_work_with_files"
+        tools:layout="@layout/fragment_work_with_files" />
 </navigation>

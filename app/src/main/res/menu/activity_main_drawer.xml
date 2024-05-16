@@ -47,6 +47,16 @@
             android:icon="@drawable/ic_menu_sensor"
             android:title="Sensor" />
 
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/workwithfilesFragment"
+            android:icon="@drawable/ic_menu_notes"
+            android:title="Notes" />
+
 
     </group>
 </menu>
