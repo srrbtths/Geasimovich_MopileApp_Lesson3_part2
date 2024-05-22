@@ -70,4 +70,10 @@
         android:name="ru.mirea.egerasimovich.mireaproject.WorkWithFilesFragment"
         android:label="fragment_work_with_files"
         tools:layout="@layout/fragment_work_with_files" />
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="ru.mirea.egerasimovich.mireaproject.WeatherFragment"
+        android:label="fragment_weather"
+        tools:layout="@layout/fragment_weather" />
 </navigation>

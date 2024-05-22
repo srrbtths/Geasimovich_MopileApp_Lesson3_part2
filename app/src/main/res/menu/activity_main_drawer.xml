@@ -57,6 +57,11 @@
             android:icon="@drawable/ic_menu_notes"
             android:title="Notes" />
 
+        <item
+            android:id="@+id/weatherFragment"
+            android:icon="@drawable/ic_menu_weather"
+            android:title="Weather" />
+
 
     </group>
 </menu>
