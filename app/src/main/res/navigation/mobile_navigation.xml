@@ -76,4 +76,10 @@
         android:name="ru.mirea.egerasimovich.mireaproject.WeatherFragment"
         android:label="fragment_weather"
         tools:layout="@layout/fragment_weather" />
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="ru.mirea.egerasimovich.mireaproject.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>

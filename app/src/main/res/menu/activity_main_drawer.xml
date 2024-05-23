@@ -62,6 +62,10 @@
             android:icon="@drawable/ic_menu_weather"
             android:title="Weather" />
 
+        <item
+            android:id="@+id/mapsFragment"
+            android:icon="@drawable/ic_menu_maps"
+            android:title="Maps" />
 
     </group>
 </menu>
